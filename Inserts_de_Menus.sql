@@ -65,8 +65,13 @@ VALUES (67, 64, 'Exames por Realizante', '/RelExameRealizante', 'S');
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL)
 VALUES (68, 64, 'Convênios por Recurso', '/RelConvenioRecurso', 'S');
 
--- 69 JÁ OCUPADO LUCAS T.I
--- 70 JÁ OCUPADO LUCAS T.I
+--Relatórios Controle 
+
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (69, 17, 'Relatórios', '#', 'S', null, '');
+
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (70, 69, 'Laudos Corrigidos', '/RelStatusCorrigido', 'S', null, '');
 
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL)
 VALUES (71, 64, ' Horários Livres', '/RelHorLivres', 'S');
