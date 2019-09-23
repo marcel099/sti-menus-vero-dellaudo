@@ -7,7 +7,7 @@
 --      Lucas Gehlen  
 --      Gregori Schuster
 --      Marcelo Lupatini
---
+--      Vinicius Meng
 
 
 --      Central de Marcação
@@ -122,6 +122,11 @@ VALUES (84, 53, 'Relação Rec./Exame', '/Cm_RecursoExame', 'S');
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL)
 VALUES (85, 53, 'Relação Rec./Conv.', '/Cm_RecursoConvenio', 'S');
 
+-- Controle -> Relatorio de Entregas
+
+INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (86, 69, 'Entregas Realizadas', '/RelEntrega', 'S', null, '');
+
 --      Faturamento
 
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, icone)
@@ -141,3 +146,8 @@ VALUES (90, 87, 'Módulo do I.P.E.', '/FatModIpe', 'S');
 
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL)
 VALUES (91, 88, '', '', 'S');
+
+-- Controle -> Relatorio de Laudos PADI 1%
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (92, 69, 'Laudos PADI', '/RelPADI', 'S', null, '');
+
