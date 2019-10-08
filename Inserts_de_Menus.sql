@@ -156,3 +156,9 @@ VALUES (91, 88, '', '', 'S');
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 values (92, 69, 'Laudos PADI', '/RelPADI', 'S', null, '');
 
+-- Fluxos -> De Controle de Laudos
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (97, 2, 'De Controle de Laudos', '/FluxoControleLaudo', 'S', null, 'list');
+
+
+
