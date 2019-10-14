@@ -1,5 +1,0 @@
-insert into web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (91, 87, 'Especialidade dos Exames', '/GrpExame', 'S');
-
-insert into web_perfilcontrole(codperfil, codcontrole)
-values(1, 91);
