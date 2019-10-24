@@ -1,7 +1,0 @@
-insert into web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (94, 92, 'Tipo de logradouro', '/TipoLogradouro', 'S');
-
-
-insert into web_perfilcontrole(codperfil, codcontrole)
-values(1, 94);
-
