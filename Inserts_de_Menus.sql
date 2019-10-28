@@ -176,5 +176,7 @@ values (96, 94, 'Tipo de logradouro', '/TipoLogradouro', 'S');
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 values (97, 2, 'De Controle de Laudos', '/FluxoControleLaudo', 'S', null, 'list');
 
-
+-- Laudos Atrasados -> Relatório 
+insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (98, 69, 'Laudos Atrasados', '/RelLaudoAtrasado', 'S', null, '');
 
