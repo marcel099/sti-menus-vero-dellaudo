@@ -151,3 +151,9 @@ values (51, 97, 'Histórico de Realizante', '/FluxoControleLaudo/historicoRealiz
 insert into web_subcontrole (CODSUBCONTROLE, CODCONTROLE, LABEL, CONTROLE, CODSUBCONTROLEPAI, VISIVEL, INDICE, ACAO, ICONE, CSS)
 values (52, 4, 'Transferência PADI', '/FluxoMedico/transferirPADI', null, 'S', 8, 'transferirPADI', 'gavel', 'btn-default');
 
+-- Cancelar Revisado e Assinado no Fluxo Controle de Laudo
+insert into web_subcontrole (CODSUBCONTROLE, CODCONTROLE, LABEL, CONTROLE, CODSUBCONTROLEPAI, VISIVEL, INDICE, ACAO, ICONE, CSS)
+values (53, 97, 'Cancelar Revisado', '/FluxoControleLaudo/cancelarRevisar', null, 'S', 4, 'cancelarRevisar', 'eye sys-icon-red', '');
+
+insert into web_subcontrole (CODSUBCONTROLE, CODCONTROLE, LABEL, CONTROLE, CODSUBCONTROLEPAI, VISIVEL, INDICE, ACAO, ICONE, CSS)
+values (54, 97, 'Cancelar Assinado', '/FluxoControleLaudo/cancelarAssinar', null, 'S', 3, 'cancelarAssinar', 'check sys-icon-red', '');
