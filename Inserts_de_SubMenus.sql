@@ -157,3 +157,7 @@ values (53, 97, 'Cancelar Revisado', '/FluxoControleLaudo/cancelarRevisar', null
 
 insert into web_subcontrole (CODSUBCONTROLE, CODCONTROLE, LABEL, CONTROLE, CODSUBCONTROLEPAI, VISIVEL, INDICE, ACAO, ICONE, CSS)
 values (54, 97, 'Cancelar Assinado', '/FluxoControleLaudo/cancelarAssinar', null, 'S', 3, 'cancelarAssinar', 'check sys-icon-red', '');
+
+insert into web_subcontrole (CODSUBCONTROLE, CODCONTROLE, LABEL, CONTROLE, CODSUBCONTROLEPAI, VISIVEL, INDICE, ACAO, ICONE, CSS)
+values (55, 48, 'Confirmar Materiais', '/FluxoAtendimento/inserirGastos', null, 'S', 1, 'inserirGastos', '', '');
+
