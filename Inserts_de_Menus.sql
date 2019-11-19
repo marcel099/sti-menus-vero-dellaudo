@@ -185,3 +185,11 @@ INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL,
 values (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
 
 
+/*  RDM 323 */
+INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+VALUES (100, 53, 'Grupo de Salas', '/Cm_GrupoSala', 'S', null, '');
+/*  RDM 323 */
+
+insert into homologacao.web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (101, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
+
