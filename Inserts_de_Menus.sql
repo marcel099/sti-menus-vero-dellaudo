@@ -185,3 +185,6 @@ INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL,
 values (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
 
 
+--Grupo Sala -> Agenda -> Cadastro Master/Detail exemplo para outras telas
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (100, 53, 'Grupo de Sala', '/cm_grupodesala', 'S', null, '');
