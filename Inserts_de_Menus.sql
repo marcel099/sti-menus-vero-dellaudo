@@ -184,4 +184,8 @@ values (98, 69, 'Laudos Atrasados', '/RelLaudoAtrasado', 'S', null, '');
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 values (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
 
+--Área de Exams -> Gastos de Sala
+insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
+
 
