@@ -192,3 +192,8 @@ values (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
 insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 values (102, 93, 'Fatura CSV', '/FaturaCSV', 'S', null, '');
 
+/*  RDM 323 */
+INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+VALUES (100, 53, 'Grupo de Salas', '/Cm_GrupoSala', 'S', null, '');
+/*  RDM 323 */
+
