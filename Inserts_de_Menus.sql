@@ -68,10 +68,10 @@ VALUES (68, 64, 'Convênios por Recurso', '/RelConvenioRecurso', 'S');
 --Relatórios Controle 
 
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (69, 17, 'Relatórios', '#', 'S', null, '');
+VALUES (69, 17, 'Relatórios', '#', 'S', null, '');
 
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (70, 69, 'Laudos Corrigidos', '/RelStatusCorrigido', 'S', null, '');
+VALUES (70, 69, 'Laudos Corrigidos', '/RelStatusCorrigido', 'S', null, '');
 
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL)
 VALUES (71, 64, ' Horários Livres', '/RelHorLivres', 'S');
@@ -130,7 +130,7 @@ VALUES (85, 53, 'Relação Rec./Conv.', '/Cm_RecursoConvenio', 'S');
 -- Controle -> Relatorio de Entregas
 
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (86, 69, 'Entregas Realizadas', '/RelEntrega', 'S', null, '');
+VALUES (86, 69, 'Entregas Realizadas', '/RelEntrega', 'S', null, '');
 
 --      Faturamento
 
@@ -154,46 +154,46 @@ VALUES (91, 88, '', '', 'S');
 
 -- Controle -> Relatorio de Laudos PADI 1%
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (92, 69, 'Laudos PADI', '/RelPADI', 'S', null, '');
+VALUES (92, 69, 'Laudos PADI', '/RelPADI', 'S', null, '');
 
 -- faturamento -> cadastros -> especialidade dos exames
 INSERT INTO web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (93, 87, 'Especialidade dos Exames', '/GrpExame', 'S');
+VALUES (93, 87, 'Especialidade dos Exames', '/GrpExame', 'S');
 
 -- faturamento -> TISS
 INSERT INTO web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (94, 87, 'TISS', '#', 'S');
+VALUES (94, 87, 'TISS', '#', 'S');
 
 -- faturamento -> TISS -> Versão do Tiss
 INSERT INTO web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (95, 94, 'Versão do Tiss', '/TissVersao', 'S');
+VALUES (95, 94, 'Versão do Tiss', '/TissVersao', 'S');
 
 -- faturamento -> TISS -> Tipo de logradouro
 INSERT INTO web_controle(codcontrole, codcontrolepai, label, controle, visivel)
-values (96, 94, 'Tipo de logradouro', '/TipoLogradouro', 'S');
+VALUES (96, 94, 'Tipo de logradouro', '/TipoLogradouro', 'S');
 
 -- Fluxos -> De Controle de Laudos
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (97, 2, 'De Controle de Laudos', '/FluxoControleLaudo', 'S', null, 'list');
+VALUES (97, 2, 'De Controle de Laudos', '/FluxoControleLaudo', 'S', null, 'list');
 
 -- Laudos Atrasados -> Relatório 
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (98, 69, 'Laudos Atrasados', '/RelLaudoAtrasado', 'S', null, '');
+VALUES (98, 69, 'Laudos Atrasados', '/RelLaudoAtrasado', 'S', null, '');
 
 --Faturamento -> Tiss -> Convênios
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
-
---Área de Exams -> Gastos de Sala
-insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
-
---Faturamento -> Fatura CSV
-insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
-values (102, 93, 'Fatura CSV', '/FaturaCSV', 'S', null, '');
+VALUES (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
 
 /*  RDM 323 */
 INSERT INTO WEB_CONTROLE (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 VALUES (100, 53, 'Grupo de Salas', '/Cm_GrupoSala', 'S', null, '');
 /*  RDM 323 */
+
+--Área de Exams -> Gastos de Sala
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+VALUES (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
+
+--Faturamento -> Fatura CSV
+INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+VALUES (102, 93, 'Fatura CSV', '/FaturaCSV', 'S', null, '');
 
