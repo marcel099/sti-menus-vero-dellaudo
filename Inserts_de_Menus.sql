@@ -188,4 +188,7 @@ values (99, 94, 'Convênios', '/ConvenioTISS', 'S', null, '');
 insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 values (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
 
+--Faturamento -> Fatura CSV
+insert into web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
+values (102, 93, 'Fatura CSV', '/FaturaCSV', 'S', null, '');
 
