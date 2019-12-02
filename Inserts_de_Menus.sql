@@ -197,3 +197,12 @@ VALUES (101, 6, 'Gastos de Sala', '/GastosDeSala', 'S', null, '');
 INSERT INTO web_controle (CODCONTROLE, CODCONTROLEPAI, LABEL, CONTROLE, VISIVEL, INDICE, ICONE)
 VALUES (102, 93, 'Fatura CSV', '/FaturaCSV', 'S', null, '');
 
+-- faturamento -> TISS -> CBO-S
+insert into web_controle(codcontrole, codcontrolepai, label, controle, visivel)
+values (103, 94, 'CBO-S', '/Cbos', 'S');
+
+-- faturamento -> Manutenção de Pendências das Consultas
+insert into web_controle(codcontrole, codcontrolepai, label, controle, visivel)
+values (104, 87, 'Manutenção de Pendências das Consultas', '/Pendencias', 'S');
+
+
